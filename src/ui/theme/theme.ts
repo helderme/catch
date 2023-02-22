@@ -1,3 +1,4 @@
+import { type } from "os";
 import { DefaultTheme } from "styled-components";
 
 enum Variant {
@@ -5,6 +6,8 @@ enum Variant {
   Ignore = "ignore",
   SuperLike = "superLike",
 }
+
+type VariantType = `${Variant}`;
 
 declare module "styled-components" {
   export interface DefaultTheme {
@@ -60,3 +63,4 @@ defaultTheme.variants.ignore = {
 };
 
 export { defaultTheme };
+export type { VariantType };
