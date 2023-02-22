@@ -1,6 +1,9 @@
 {
     "conventionalCommits.scopes": [
         "config",
-        "theme"
+        "theme",
+        "UI",
+        "card",
+        "button"
     ]
 }
