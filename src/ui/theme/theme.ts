@@ -39,9 +39,9 @@ const defaultTheme: DefaultTheme = {
   },
 };
 
-defaultTheme.colors.blue = "#26547C";
-defaultTheme.colors.red = "#E3170A";
-defaultTheme.colors.green = "#138A36";
+defaultTheme.colors.blue = "#009AEE";
+defaultTheme.colors.red = "#FF0000";
+defaultTheme.colors.green = "#00FF00";
 defaultTheme.colors.white = "#EAEAEA";
 
 defaultTheme.fontFamily =
