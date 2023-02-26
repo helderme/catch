@@ -21,7 +21,7 @@ const UI: FunctionComponent = () => {
     setAvailableCats((availableCats) =>
       availableCats.filter((c) => c.id !== cat.id),
     );
-    setAvailableCats((setAvailableCats) => [...availableCats, getRandomCat()]);
+    setAvailableCats((availableCats) => [...availableCats, getRandomCat()]);
     switch (action) {
       case Action.Ignore:
         setIgnored((ignored) => [...ignored, cat]);

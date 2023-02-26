@@ -4,6 +4,11 @@
         "theme",
         "UI",
         "card",
-        "button"
+        "button",
+        "icon",
+        "type",
+        "button",
+        "icon",
+        "cardsContainer"
     ]
 }
